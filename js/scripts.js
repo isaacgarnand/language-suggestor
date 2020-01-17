@@ -17,10 +17,14 @@ $(document).ready(function() {
   });
 });
 
-
+$(document).ready(function() {
+  $(".expandable0").click(function() {
+    $(".showham").fadeIn();
+  });
+});
 
 $(document).ready(function() {
-  $(".hamandcheese").click(function() {
-    $(".showham").fadeIn();
+  $(".expandable1").click(function() {
+    $("#output1").show();
   });
 });

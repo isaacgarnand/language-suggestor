@@ -7,12 +7,12 @@ body  {
   align-content: center;
 }
 
-.hamandcheese {
+.expandable0, .expandable1 {
     cursor: pointer;
     color: #0088cc;
 }
 
-.hamandcheese:hover {
+.expandable0:hover, .expandable1 {
   text-decoration: underline;
 }
 
