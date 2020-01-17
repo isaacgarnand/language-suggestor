@@ -1,14 +1,17 @@
 $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
-    var mathInteger = parseInt($("input#mathint").val());
-    var myProblem = document.getElementById("trouble");
-    var animals = parseInt($("#animal").val());
-    var frustration = (mathInteger + animals)
-    if (frustration >= 8) {
+    $("#output0").hide();
+    $("#output1").hide();
+    $("#output2").hide();
+    var answer1 = parseInt($("input#mathint").val());
+    var answer2 = document.getElementById("trouble");
+    var answer3 = parseInt($("#animal").val());
+    var answeradd = (answer1 + answer3)
+    if (answeradd >= 8) {
       $("#output0").show();
     }
-    else if (myProblem.checked) {
+    else if (answer2.checked) {
       $("#output1").show();
     }
     else {
@@ -19,7 +22,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $(".expandable0").click(function() {
-    $(".showham").fadeIn();
+    $(".showol").fadeIn();
   });
 });
 

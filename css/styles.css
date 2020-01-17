@@ -16,3 +16,7 @@ body  {
   text-decoration: underline;
 }
 
+#output1 img {
+  border-radius: 33%;
+  image-rendering: optimizeSpeed;
+}
