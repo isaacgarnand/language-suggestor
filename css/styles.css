@@ -1,4 +1,4 @@
-#output0, #output1, #output2, .showham {
+#output0, #output1, #output2, .showol {
   display: none;
 }
 
@@ -8,8 +8,8 @@ body  {
 }
 
 .expandable0, .expandable1 {
-    cursor: pointer;
-    color: #0088cc;
+  cursor: pointer;
+  color: #0088cc;
 }
 
 .expandable0:hover, .expandable1 {
@@ -19,4 +19,8 @@ body  {
 #output1 img {
   border-radius: 33%;
   image-rendering: optimizeSpeed;
+}
+
+.showol {
+  float: right;
 }

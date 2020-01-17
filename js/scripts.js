@@ -8,7 +8,10 @@ $(document).ready(function() {
     var answer2 = document.getElementById("trouble");
     var answer3 = parseInt($("#animal").val());
     var answeradd = (answer1 + answer3)
-    if (answeradd >= 8) {
+    if (answer1 > 10 || answer1 < 0) {
+      alert('Please pick a number from 0-10')
+    }
+    else if (answeradd >= 8) {
       $("#output0").show();
     }
     else if (answer2.checked) {
