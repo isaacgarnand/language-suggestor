@@ -16,3 +16,11 @@ $(document).ready(function() {
     }
   });
 });
+
+
+
+$(document).ready(function() {
+  $(".hamandcheese").click(function() {
+    $(".showham").fadeIn();
+  });
+});

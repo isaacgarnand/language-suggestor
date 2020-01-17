@@ -1,4 +1,4 @@
-#output0, #output1, #output2 {
+#output0, #output1, #output2, .showham {
   display: none;
 }
 
@@ -6,3 +6,13 @@ body  {
   background-color: lightblue;
   align-content: center;
 }
+
+.hamandcheese {
+    cursor: pointer;
+    color: #0088cc;
+}
+
+.hamandcheese:hover {
+  text-decoration: underline;
+}
+

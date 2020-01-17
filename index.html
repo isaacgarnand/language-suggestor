@@ -9,14 +9,14 @@
 </head>
 <body>
   <div class="container">
-    <h1>Programming Language Suggestor</h1>
+    <h1 style="text-align: center;">Programming Language Suggestor</h1>
     <form id="quiz">
       <div class="form-group">
         <label for="mathint">On a scale of 0-10, how much do you like math?</label>
         <input id="mathint" class="form-control" type="number">
       </div>
       <div class="radio">
-        <p>What is the most difficult part of programming, to you?</p>
+        <p><strong>What is the most difficult part of programming, to you?</strong></p>
         <label>
           <input type="radio" name="problem" id="creative">
           Being Creative
@@ -61,7 +61,16 @@
     </div>
     <div id="output2">
       <h2>JavaScript</h2>
-      <p>Maybe math isn't your thing, but you don't mind a little troubleshooting. Why not try JavaScript? It makes use of ham & cheese.</p>
+      <p>Maybe math isn't your thing, but you don't mind a little troubleshooting. Why not try JavaScript? It makes use of ham & cheese. <span class="hamandcheese">Ham and cheese consists of:</span></p>
+      <div class="showham">
+        <ul>
+          <li>Bread (gluten free bread can be substituted)</li>
+          <li>Ham (non-carnivous protien can be substituted)</li>
+          <li>cheese (non-dairy filler can be substituted)</li>
+          <li>Mustard (there is no equivlent)</li>
+          <li>Lettuce be done with this ul</li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
