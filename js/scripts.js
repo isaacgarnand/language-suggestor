@@ -4,6 +4,7 @@ $(document).ready(function() {
     $("#output0").hide();
     $("#output1").hide();
     $("#output2").hide();
+    $("#output3").hide();
     var answer1 = parseInt($("input#mathint").val());
     var answer2 = document.getElementById("trouble");
     var answer3 = parseInt($("#animal").val());
@@ -12,6 +13,9 @@ $(document).ready(function() {
       alert('Please pick a number from 0-10')
     }
     else if (answeradd >= 8 && answer2.checked) {
+      $("#output3").show();
+    }
+    else if (answer2.checked) {
       $("#output1").show();
     }
     else if (answeradd >=8) {
