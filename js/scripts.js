@@ -2,11 +2,11 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     event.preventDefault();
     
-    var mathIntger = parseInt($("input#mathint").val());
-    var myProblem = $("input:radio:[name=problem]:checked").val();
+    var mathInteger = parseInt($("input#mathint").val());
+    var myProblem = document.getElementsByName("problem");
     var animals = parseInt($("#animal").val());
 
-    var frustration = (mathIntger + animals);
+    var frustration = (mathInteger + animals)
 
     if (frustration >= 8) {
       $("#output0").show();
