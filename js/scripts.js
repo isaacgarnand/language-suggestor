@@ -3,7 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
     
     var mathInteger = parseInt($("input#mathint").val());
-    var myProblem = document.getElementsByName("problem");
+    var myProblem = document.getElementById("trouble");
     var animals = parseInt($("#animal").val());
 
     var frustration = (mathInteger + animals)
@@ -11,7 +11,7 @@ $(document).ready(function() {
     if (frustration >= 8) {
       $("#output0").show();
     }
-    else if (frustration < 8 && myProblem === 'trouble') {
+    else if (myProblem.checked) {
       $("#output1").show();
     }
     else {
