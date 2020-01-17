@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.css" type="css/text">
   <link rel="stylesheet" href="css/styles.css" type="css/text">
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
@@ -15,16 +15,34 @@
     <h1>Programming Language Suggestor</h1>
     <form id="quiz">
       <div class="form-group">
-        <label for=""></label>
-        <input id="" class="form-control" type="text">
+        <label for="mathint">On a scale of 0-10, how much do you like math?</label>
+        <input id="mathint" class="form-control" type="number">
+      </div>
+      <div class="radio">
+        <p>What is the most difficult part of programming, to you?</p>
+        <label>
+          <input type="radio" name="problem" value="creative" checked>
+          Being Creative
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="problem" value="trouble">
+          Troubleshooting
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="problem" value="document">
+          Documenting your work
+        </label>
       </div>
       <div class="form-group">
-        <label for=""></label>
-        <input id="" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for=""></label>
-        <input id="" class="form-control" type="text">
+        <label for="animal">Dogs or Cats?</label>
+        <select class="form-control" id="animal">
+          <option value="0">Dogs</option>
+          <option value="1">Cats</option>
+        </select>
       </div>
       <div class="form-group">
         <label for=""></label>
