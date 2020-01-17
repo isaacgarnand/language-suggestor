@@ -11,11 +11,11 @@ $(document).ready(function() {
     if (answer1 > 10 || answer1 < 0) {
       alert('Please pick a number from 0-10')
     }
-    else if (answeradd >= 8) {
-      $("#output0").show();
-    }
-    else if (answer2.checked) {
+    else if (answeradd >= 8 && answer2.checked) {
       $("#output1").show();
+    }
+    else if (answeradd >=8) {
+      $("#output0").show();
     }
     else {
       $("#output2").show();
