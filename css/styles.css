@@ -24,3 +24,15 @@ body  {
 .showol {
   float: right;
 }
+
+/* @media screen and (max-width: 800px) { 
+  body {
+    margin: 20px;  
+    padding: 2px;
+    border: 2px;
+    font-size: large;
+  }
+  .container {
+    margin: 10px;
+  }
+} */
