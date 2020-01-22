@@ -11,7 +11,7 @@ _A webpage in which the user fills out a form to show different language suggues
 ## Setup/Installation Requirements
 
 * _Install a web browser_
-* _visit: http://isaacgarnand.github.io/language-suggester_
+* _visit: http://isaacgarnand.github.io/language-suggestor_
 * _or_
 * _drag index.html from project repository to web brower_
 
